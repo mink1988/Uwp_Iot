@@ -37,9 +37,8 @@ namespace App1
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnSend_Click(object sender, RoutedEventArgs e)
         {
- 
             DeviceService.SendMessageAsync(deviceClient).GetAwaiter();
         }
     }

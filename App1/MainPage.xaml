@@ -9,8 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Margin="20" Background="AliceBlue">
-        <Button x:Name="btnSend" Click="Button_Click" Content="Button" Margin="615,295,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="646,0,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <Button x:Name="btnSend" Click="btnSend_Click" Content="Send Weather Forecast " Padding="50" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+
+
 
     </Grid>
 </Page>
